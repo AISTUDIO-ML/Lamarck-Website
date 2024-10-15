@@ -12,6 +12,7 @@ import {
   Blogs,
   Subscribe,
   Methylation,
+  Health,
 } from "sections/sections";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <NavBar />
       <Home />
       <Methylation />
+      <Health />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}

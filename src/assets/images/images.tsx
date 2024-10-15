@@ -31,6 +31,7 @@ import blogimage_1 from "./blogimage_1.png";
 import blogimage_2 from "./blogimage_2.png";
 import blogimage_3 from "./blogimage_3.png";
 import methylation from "./methylation.png";
+import health_care from "./health_care.png";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   blogimage_2,
   blogimage_3,
   methylation,
+  health_care,
 };
