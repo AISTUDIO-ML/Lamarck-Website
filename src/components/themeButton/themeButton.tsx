@@ -8,15 +8,11 @@ interface ThemeButtonProps {
 }
 
 const ThemeButton: React.FC<ThemeButtonProps> = (props) => {
-  const { content, bgFill, className, href } = props;
+  const { content, className, href } = props;
   return (
     <a href={href ? href : redirectUrl} target="_blank" rel="noreferrer">
       <button
-        className={`${className} ${
-          bgFill
-            ? "bg-secondary text-white"
-            : "text-secondary bg-white border-secondary border-2"
-        } rounded-full px-8 h-12 semibold`}
+        className={`${className} bg-primary text-white rounded-full px-8 h-12 semibold`}
       >
         {content}
       </button>

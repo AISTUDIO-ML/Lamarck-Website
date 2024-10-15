@@ -6,28 +6,20 @@ import "./navbar.css";
 
 const links = [
   {
-    name: "Enterprise",
+    name: "Home",
     href: "/#",
   },
   {
-    name: "Solutions",
-    href: "#solutions",
+    name: "Epigenomics",
+    href: "/#",
   },
   {
-    name: "Company",
-    href: "#company",
+    name: "Genetics",
+    href: "/#",
   },
   {
-    name: "AIOPS",
-    href: "#aiops",
-  },
-  {
-    name: "Confidential Computing",
-    href: "#confidential_computing",
-  },
-  {
-    name: "Blog",
-    href: "#blog",
+    name: "Confidential DATA Platform",
+    href: "/#",
   },
 ];
 
@@ -44,7 +36,11 @@ const MobNavBar: React.FC = () => {
     <div className="lg:hidden z-20 sticky top-0 bg-white shadow-md">
       <div className="flex items-center justify-between myContainer">
         <a href="/#">
-          <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={logo} width={130} />
+          <img
+            alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+            src={logo}
+            width={130}
+          />
         </a>
         <img
           onClick={handleOptions}
@@ -65,7 +61,7 @@ const MobNavBar: React.FC = () => {
                   onClick={() => setShowOptions("headerClose")}
                   key={index}
                   href={link.href}
-                  className="py-1 semibold"
+                  className="py-1 railway font-semibold"
                 >
                   {link.name}
                 </a>
@@ -73,7 +69,7 @@ const MobNavBar: React.FC = () => {
             })}
           </div>
           <div className="flex justify-center">
-            <ThemeButton bgFill content="Try for Free" className="mt-5" />
+            <ThemeButton content="Get Started For Free" className="mt-5" />
           </div>
         </div>
       </div>
@@ -87,17 +83,25 @@ const NavBar: React.FC = () => {
       <MobNavBar />
       <div className="myContainer sticky top-0 z-20 bg-white shadow-md lg:flex items-center justify-between hidden">
         <a href="/#">
-          <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={logo} width={170} />
+          <img
+            alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+            src={logo}
+            width={170}
+          />
         </a>
         <div className="gap-7 flex items-center">
           {links.map((link, index) => {
             return (
-              <a key={index} href={link.href} className="py-1 semibold">
+              <a
+                key={index}
+                href={link.href}
+                className="py-1 railway font-semibold"
+              >
                 {link.name}
               </a>
             );
           })}
-          <ThemeButton bgFill content="Try for Free" />
+          <ThemeButton content="Get Started For Free" />
         </div>
       </div>
     </>

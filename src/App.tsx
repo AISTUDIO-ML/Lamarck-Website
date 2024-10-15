@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <TopBanner />
-      {/* <NavBar /> */}
+      <NavBar />
       {/* <Home /> */}
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
