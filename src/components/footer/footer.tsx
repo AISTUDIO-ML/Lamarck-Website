@@ -7,12 +7,16 @@ import {
   visa,
 } from "assets/images/images";
 import {
+  apple,
   facebook,
   github,
   instagram,
   linkedin,
-  // mail,
+  podcast,
+  smile,
   twitter,
+  wifi,
+  youtube,
 } from "assets/icons/icons";
 
 const links = [
@@ -28,7 +32,11 @@ const links = [
         href: "https://www.honeypotz.net/",
       },
       {
-        title: "Enterprise",
+        title: "Investors",
+        href: require("../../assets/Honeypotz_Seed.pdf"),
+      },
+      {
+        title: "Partnership",
         href: "/",
       },
       {
@@ -41,15 +49,15 @@ const links = [
     title: "Services",
     link: [
       {
-        title: "AIOPS",
+        title: "Pharma",
         href: "/",
       },
       {
-        title: "Deep Beat",
+        title: "Biotech",
         href: "/",
       },
       {
-        title: "Confidential Computing",
+        title: "Physicians",
         href: "/",
       },
       {
@@ -69,158 +77,77 @@ const links = [
         title: "Privacy Policies",
         href: "https://app.termly.io/document/privacy-policy/fec0b2f8-630e-4a48-889b-fa3e8174ced8",
       },
-      {
-        title: "Investors",
-        href: require("../../assets/Honeypotz_Seed.pdf"),
-      },
     ],
   },
 ];
 
 const Footer: React.FC = () => {
   return (
-    <>
-      <div className="myContainer border-t border-gray-300 !py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 lg:gap-y-0 lg:grid-cols-6 gap-3">
-          <div className="md:col-span-2">
-            <a href="/#">
-              <img
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-                src={logo}
-                width={170}
-              />
-            </a>
-            <p className="medium mt-5 w-full text-sm leading-7  ">
-              Developed by Honeypotz Inc founded in 2016. <br /> Unlock a new
-              era of digital security With <br /> AIstudio- where cutting-edge
-              AI meets <br /> effortless protection.
-            </p>
-            <div className="flex items-center gap-3 mt-8">
-              <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img
-                  src={visa}
-                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-                  width={30}
-                  className="mr-1"
-                />
-              </div>
-              <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img
-                  src={mastercard}
-                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-                  width={25}
-                />
-              </div>
-              <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img
-                  src={discover}
-                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-                  width={30}
-                />
-              </div>
-              <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img
-                  src={unionpay}
-                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-                  width={25}
-                />
-              </div>
-            </div>
+    <div className="myContainer border-t border-gray-300 !pt-10 !pb-7">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 lg:gap-y-0 lg:grid-cols-6 gap-3">
+        <div className="md:col-span-2">
+          <a href="/#">
+            <img
+              alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              src={logo}
+              width={170}
+            />
+          </a>
+          <p className="medium mt-5 text-sm">Deepbody founded in 2017</p>
+          <p className="mt-5 text-sm">Podcast:</p>
+          <div className="flex items-center gap-6 mt-2">
+            <img src={apple} alt="apple" width={22} />
+            <img src={youtube} alt="youtube" width={22} />
+            <img src={wifi} alt="wifi" width={22} />
+            <img src={podcast} alt="podcast" width={22} />
           </div>
-          {links.map((link, index) => (
-            <div key={index}>
-              <p className="semibold pb-3">{link.title}</p>
-              <div className="medium text-sm flex flex-col leading-9">
-                {link.link.map((item, index) => (
-                  <a
-                    key={index}
-                    href={item.href}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {item.title}
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))}
-          <div>
-            <p className="semibold pb-3">Contact Us</p>
-            <p className="medium text-sm">
-              8 The Green STE R Dover, DE 19901 USA
-            </p>
-            <p className="medium text-sm py-4">Ph. +1 305 390 0563</p>
-            <p className="medium text-sm">
-              Hirschmattstrasse 42 Luzern, LH-6003 Switzerland
-            </p>
-            <p className="medium text-sm py-4">Ph. +41 44 585 2436</p>
-            <p className="medium text-sm">Email: Team@honeypotz.net</p>
+          <p className="mt-5 text-sm">Social:</p>
+          <div className="flex items-center gap-6 mt-1">
+            <img src={linkedin} alt="linkedin" width={22} />
+            <img src={twitter} alt="twitter" width={22} />
+            <img src={facebook} alt="facebook" />
+            <img src={instagram} alt="instagram" width={22} />
+            <img src={smile} alt="smile" width={30} className="-ml-2" />
           </div>
         </div>
-        <div className="md:flex items-center justify-between">
-          <div className="mt-8 flex items-center">
-            <p className="caveat text-primary text-4xl">Made By</p>
-            <img alt="honeypotz" src={honeypotz} className="ml-4" width={180} />
+        {links.map((link, index) => (
+          <div key={index}>
+            <p className="semibold pb-3">{link.title}</p>
+            <div className="medium text-sm flex flex-col leading-9">
+              {link.link.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {item.title}
+                </a>
+              ))}
+            </div>
           </div>
-          <div className="flex items-center gap-7 mt-8">
-            <a
-              href="https://www.facebook.com/aistudioml"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={facebook}
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-              />
-            </a>
-            {/* <img src={mail} alt="mastercard" /> */}
-            <a
-              href="https://www.instagram.com/aistudioml/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={instagram}
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/honeypotz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={linkedin}
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-              />
-            </a>
-            <a
-              href="https://github.com/AISTUDIO-ML/Honeypotz-main-website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={github}
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-              />
-            </a>
-            <a
-              href="https://twitter.com/aistudioml"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={twitter}
-                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-              />
-            </a>
-          </div>
+        ))}
+        <div>
+          <p className="semibold pb-3">Contact Us</p>
+          <p className="medium text-sm">
+            Address: 159 Main Street Suite 100 Nashua, NH 03060 USA
+          </p>
+          <p className="medium text-sm py-4">
+            Address: Hirschmatstrasse, 42 Luzern, LH-6003 Switzerland
+          </p>
+          <p className="medium text-sm">+ 1 202 507 9469</p>
+          <p className="medium text-sm py-4">+ 41 44 585 2436</p>
+          <p className="medium text-sm">DNA@deepbody.me</p>
         </div>
       </div>
-      <div className="bg-primary text-xs md:text-sm myContainer h-16 md:h-14 flex justify-center text-center items-center text-white">
-        <p>(@) 2024 aistudio Limited. All Rights Reserved.</p>
+      <p className="caveat text-primary text-4xl mt-5 md:mt-0">
+        Made By{" "}
+        <span className="railway font-bold ml-3 text-3xl">DEEPBODY</span>
+      </p>
+      <div className="bg-secondary text-xs md:text-base w-full md:py-3 p-5 rounded-full text-center px-5 text-primary mt-10">
+        <p>(@) 2024 deepbody.me Limited. All Rights Reserved.</p>
       </div>
-    </>
+    </div>
   );
 };
 

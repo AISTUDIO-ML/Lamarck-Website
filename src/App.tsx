@@ -32,7 +32,7 @@ function App() {
       {/* <BottomBanner /> */}
       {/* <Blogs /> */}
       {/* <Subscribe /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
