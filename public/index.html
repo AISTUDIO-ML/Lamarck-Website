@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Lamarck Website</title>
+    <script>
+      window.referralJS =
+        window.referralJS !== null && window.referralJS !== undefined
+          ? window.referralJS
+          : {};
+      window.referralJS.scriptConfig = {
+        parameters: {
+          src: "//honeypotz.referralrock.com/ReferralSdk/referral.js",
+          transactionKey: "18755dd9-fbf4-40a1-ae92-60e73c20b12e",
+        },
+      };
+      (function (f, r, n, d, b, y) {
+        (b = f.createElement(r)), (y = f.getElementsByTagName(r)[0]);
+        b.async = 1;
+        b.src =
+          n +
+          "?referrer=" +
+          encodeURIComponent(
+            window.location.origin + window.location.pathname
+          ).replace(/[!'()*]/g, escape);
+        b.id = "RR_DIVID_V5";
+        b.setAttribute(
+          "transactionKey",
+          window.referralJS.scriptConfig.parameters.transactionKey
+        );
+        y.parentNode.insertBefore(b, y);
+      })(document, "script", window.referralJS.scriptConfig.parameters.src);
+    </script>
+    <script
+      defer
+      src="https://unpkg.com/@tinybirdco/flock.js"
+      data-host="https://api.us-east.tinybird.co"
+      data-token="p.eyJ1IjogIjNmZWYzNGFjLWZjOTMtNGVjMC04NzhjLTFkNjcyYTFhYWJiMSIsICJpZCI6ICI4ODFmOTg0ZS02N2I1LTQ1NDctYjZkOC1lOWNmMjg4MTc4MmUiLCAiaG9zdCI6ICJ1c19lYXN0In0.4DrOceR7k3wNFvv9HtLMGld3eO91EtJrpaJg6s6Ll6k"
+    ></script>
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/5728901.js"
+    ></script>
+    <script
+      async
+      type="application/javascript"
+      src="https://news.google.com/swg/js/v1/swg-basic.js"
+    ></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push((basicSubscriptions) => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAow2ejMCw:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
+    <script
+      async
+      type="application/javascript"
+      src="https://news.google.com/swg/js/v1/swg-basic.js"
+    ></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push((basicSubscriptions) => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAow2ejMCw:aistudio",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- <div
+      name="termly-embed"
+      data-id="fec0b2f8-630e-4a48-889b-fa3e8174ced8"
+    ></div> -->
+    <script type="text/javascript">
+      (function (d, s, id) {
+        var js,
+          tjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://app.termly.io/embed-policy.min.js";
+        tjs.parentNode.insertBefore(js, tjs);
+      })(document, "script", "termly-jssdk");
+    </script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
