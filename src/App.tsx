@@ -18,7 +18,7 @@ function App() {
     <div>
       <TopBanner />
       <NavBar />
-      {/* <Home /> */}
+      <Home />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}

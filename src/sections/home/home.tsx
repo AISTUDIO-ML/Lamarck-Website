@@ -3,34 +3,33 @@ import { ThemeButton } from "components/components";
 
 const Home: React.FC = () => {
   return (
-    <div className="myContainer !mt-5">
-      <p className="text-primary font-bold text-3xl leading-[45px] md:text-5xl text-center md:leading-[75px]">
-        Revolutionizing <span className="text-secondary">Data Privacy</span> and{" "}
-        <br />
-        <span className="text-secondary">Securing AI/ML models</span>
-      </p>
-      <p className="text-center mt-5 font-medium text-lg md:text-[22px]">
-        Maintaining brand reputation and trade secret exposure.
-      </p>
-      <div className="flex justify-center mt-6">
-        <img src={ai_studio} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={300} />
+    <div className="myContainer !py-20 grid lg:grid-cols-2 gap-10">
+      <div className="flex flex-col justify-center">
+        <div className="h-12 text-primary bg-secondary w-72 rounded-full flex items-center justify-center">
+          <p className="medium">Unlock Your Health Potential</p>
+        </div>
+        <p className="railway font-bold text-4xl mt-7 leading-snug text-themeBlack">
+          Unlock Your <span className="text-primary">DNA's Potential</span> for
+          Health & Wellness
+        </p>
+        <p className="text-themeBlack railway font-bold text-lg mt-6">
+          Revolutionary DNA methylation testing and personalized supplements for
+          optimal health
+        </p>
+        <p className="regular mt-7">
+          Explore a new era of health with Deepbody. Our advanced DNA
+          methylation testing uncovers unique insights into your genetic makeup,
+          enabling us to craft personalized supplements just for you. By
+          understanding how your genes interact with your environment, we
+          provide tailored solutions to boost your well-being. Begin your
+          journey today and unlock your DNA’s full potential.
+        </p>
+        <ThemeButton content={"Order Your Test Now"} className="mt-7" />
       </div>
-      <p className="text-center mt-8 font-medium">
-        AIStudio provides advanced AI-driven solutions to detect and neutralize
-        cyber <br /> threats, ensuring your systems stay secure and your data
-        remains intact.
-      </p>
-      <div className="flex justify-center gap-5 mt-7">
-        <ThemeButton
-          href="https://app.storylane.io/demo/gz20zcbgtrtp?embed=inline"
-          content={"Free Demo"}
-          bgFill
-        />
-        <ThemeButton content={"Get Started"} />
-      </div>
-      <div className="flex justify-center relative -top-7 -z-10">
-        <img src={hero_image} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={500} />
-      </div>
+      <img
+        src={hero_image}
+        alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+      />
     </div>
   );
 };
