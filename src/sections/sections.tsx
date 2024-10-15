@@ -9,6 +9,7 @@ import Community from "./community/community";
 import Testimonials from "./testimonials/testimonials";
 import Blogs from "./blogs/blogs";
 import Subscribe from "./subscribe/subscribe";
+import Methylation from "./methylation/methylation";
 
 export {
   TopBanner,
@@ -22,4 +23,5 @@ export {
   Testimonials,
   Blogs,
   Subscribe,
+  Methylation,
 };

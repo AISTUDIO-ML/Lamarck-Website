@@ -12,11 +12,11 @@ const Home: React.FC = () => {
           Unlock Your <span className="text-primary">DNA's Potential</span> for
           Health & Wellness
         </p>
-        <p className="text-themeBlack railway font-bold text-lg mt-6">
+        <p className="text-themeBlack railway font-bold text-lg mt-6 leading-9">
           Revolutionary DNA methylation testing and personalized supplements for
           optimal health
         </p>
-        <p className="regular mt-7">
+        <p className="regular mt-7 md:text-lg leading-9">
           Explore a new era of health with Deepbody. Our advanced DNA
           methylation testing uncovers unique insights into your genetic makeup,
           enabling us to craft personalized supplements just for you. By

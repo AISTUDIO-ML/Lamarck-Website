@@ -11,6 +11,7 @@ import {
   Testimonials,
   Blogs,
   Subscribe,
+  Methylation,
 } from "sections/sections";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <TopBanner />
       <NavBar />
       <Home />
+      <Methylation />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}

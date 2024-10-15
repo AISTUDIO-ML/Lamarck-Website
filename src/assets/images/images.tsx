@@ -30,6 +30,7 @@ import stars from "./stars.png";
 import blogimage_1 from "./blogimage_1.png";
 import blogimage_2 from "./blogimage_2.png";
 import blogimage_3 from "./blogimage_3.png";
+import methylation from "./methylation.png";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   blogimage_1,
   blogimage_2,
   blogimage_3,
+  methylation,
 };
