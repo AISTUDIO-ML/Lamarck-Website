@@ -30,11 +30,11 @@ function App() {
       <UniqueGenetics />
       <HealthMatters />
       <Community />
+      <Testimonials />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}
       {/* <Awards /> */}
-      {/* <Testimonials /> */}
       {/* <BottomBanner /> */}
       {/* <Blogs /> */}
       {/* <Subscribe /> */}
