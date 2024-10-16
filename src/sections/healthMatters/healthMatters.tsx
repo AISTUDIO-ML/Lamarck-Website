@@ -3,11 +3,11 @@ import { health_matter } from "assets/images/images";
 const HealthMatters: React.FC = () => {
   return (
     <div className="myContainer !py-20">
-      <div className="grid grid-cols-7 gap-10 border-[25px] rounded-3xl p-5 border-secondary">
-        <div className="col-span-3">
+      <div className="grid md:grid-cols-7 gap-10 border-[25px] rounded-3xl p-5 border-secondary">
+        <div className="md:col-span-3">
           <img src={health_matter} alt="health_matter" />
         </div>
-        <div className="col-span-4 flex flex-col justify-center">
+        <div className="md:col-span-4 flex flex-col justify-center">
           <div className="text-primary bg-secondary h-12 w-48 rounded-full flex items-center justify-center">
             <p>Health matters</p>
           </div>

@@ -35,6 +35,7 @@ import health_care from "./health_care.png";
 import homocysteine from "./homocysteine.png";
 import deepbody from "./deepbody.png";
 import health_matter from "./health_matter.png";
+import security from "./security.png";
 
 export {
   logo,
@@ -74,4 +75,5 @@ export {
   homocysteine,
   deepbody,
   health_matter,
+  security,
 };
