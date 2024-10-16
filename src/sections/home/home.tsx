@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           provide tailored solutions to boost your well-being. Begin your
           journey today and unlock your DNA’s full potential.
         </p>
-        <ThemeButton content={"Order Your Test Now"} className="mt-7" />
+        <ThemeButton bgFill content={"Order Your Test Now"} className="mt-7" />
       </div>
       <img
         src={hero_image}

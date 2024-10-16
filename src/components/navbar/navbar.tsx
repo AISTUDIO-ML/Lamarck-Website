@@ -101,7 +101,7 @@ const NavBar: React.FC = () => {
               </a>
             );
           })}
-          <ThemeButton content="Get Started For Free" />
+          <ThemeButton bgFill content="Get Started For Free" />
         </div>
       </div>
     </>

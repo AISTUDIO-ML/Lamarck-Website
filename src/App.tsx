@@ -29,11 +29,11 @@ function App() {
       <Homocysteine />
       <UniqueGenetics />
       <HealthMatters />
+      <Community />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}
       {/* <Awards /> */}
-      {/* <Community /> */}
       {/* <Testimonials /> */}
       {/* <BottomBanner /> */}
       {/* <Blogs /> */}
