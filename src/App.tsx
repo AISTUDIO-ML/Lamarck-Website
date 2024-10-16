@@ -17,6 +17,7 @@ import {
   UniqueGenetics,
   HealthMatters,
   Security,
+  Process,
 } from "sections/sections";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Homocysteine />
       <UniqueGenetics />
       <HealthMatters />
+      <Process />
       <Community />
       <Security />
       <Testimonials />

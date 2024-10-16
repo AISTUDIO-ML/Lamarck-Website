@@ -15,6 +15,9 @@ import podcast from "./podcast.svg";
 import smile from "./smile.svg";
 import wifi from "./wifi.svg";
 import youtube from "./youtube.svg";
+import basket from "./basket.svg";
+import files from "./files.svg";
+import tablets from "./tablets.svg";
 
 export {
   cross_icon,
@@ -34,4 +37,7 @@ export {
   smile,
   wifi,
   youtube,
+  basket,
+  files,
+  tablets,
 };

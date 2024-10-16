@@ -15,6 +15,7 @@ import Homocysteine from "./homocysteine/homocysteine";
 import UniqueGenetics from "./uniqueGenetics/uniqueGenetics";
 import HealthMatters from "./healthMatters/healthMatters";
 import Security from "./security/security";
+import Process from "./process/process";
 
 export {
   TopBanner,
@@ -34,4 +35,5 @@ export {
   UniqueGenetics,
   HealthMatters,
   Security,
+  Process,
 };
