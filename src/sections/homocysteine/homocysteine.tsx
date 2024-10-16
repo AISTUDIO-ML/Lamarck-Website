@@ -1,8 +1,8 @@
 import { homocysteine } from "assets/images/images";
 
-export const Homocysteine: React.FC = () => {
+const Homocysteine: React.FC = () => {
   return (
-    <div className="myContainer !pt-20 grid lg:grid-cols-2 gap-10">
+    <div className="myContainer !py-20 grid lg:grid-cols-2 gap-10">
       <img
         src={homocysteine}
         alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
@@ -30,3 +30,5 @@ export const Homocysteine: React.FC = () => {
     </div>
   );
 };
+
+export default Homocysteine;

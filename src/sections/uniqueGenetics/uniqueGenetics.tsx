@@ -1,8 +1,8 @@
 import { deepbody } from "assets/images/images";
 
-export const UniqueGenetics: React.FC = () => {
+const UniqueGenetics: React.FC = () => {
   return (
-    <div className="myContainer !pb-20 grid lg:grid-cols-2 gap-10">
+    <div className="myContainer grid lg:grid-cols-2 gap-10">
       <div className="flex flex-col justify-center">
         <div className="text-primary bg-secondary h-12 w-48 rounded-full flex items-center justify-center">
           <p>Unique genetics</p>
@@ -29,3 +29,5 @@ export const UniqueGenetics: React.FC = () => {
     </div>
   );
 };
+
+export default UniqueGenetics;

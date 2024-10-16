@@ -34,6 +34,7 @@ import methylation from "./methylation.png";
 import health_care from "./health_care.png";
 import homocysteine from "./homocysteine.png";
 import deepbody from "./deepbody.png";
+import health_matter from "./health_matter.png";
 
 export {
   logo,
@@ -72,4 +73,5 @@ export {
   health_care,
   homocysteine,
   deepbody,
+  health_matter,
 };

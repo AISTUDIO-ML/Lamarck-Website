@@ -11,8 +11,9 @@ import Blogs from "./blogs/blogs";
 import Subscribe from "./subscribe/subscribe";
 import Methylation from "./methylation/methylation";
 import Health from "./health/health";
-import { Homocysteine } from "./homocysteine/homocysteine";
-import { UniqueGenetics } from "./uniqueGenetics/uniqueGenetics";
+import Homocysteine from "./homocysteine/homocysteine";
+import UniqueGenetics from "./uniqueGenetics/uniqueGenetics";
+import HealthMatters from "./healthMatters/healthMatters";
 
 export {
   TopBanner,
@@ -30,4 +31,5 @@ export {
   Health,
   Homocysteine,
   UniqueGenetics,
+  HealthMatters,
 };
