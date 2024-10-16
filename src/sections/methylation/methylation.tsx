@@ -7,7 +7,7 @@ const Methylation: React.FC = () => {
         <p className="text-primary railway font-bold text-3xl">
           What is the Methylation Cycle?
         </p>
-        <p className="text-themeBlack md:text-lg regular mt-8 leading-9">
+        <p className="text-themeBlack md:text-lg regular mt-8 md:leading-9">
           The methylation cycle is the process of transferring methyl groups
           (CH3) to DNA, turning switches off and on which change the gene
           expression but not the sequence. The methylation cycle relies on

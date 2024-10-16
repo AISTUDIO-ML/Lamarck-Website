@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           Revolutionary DNA methylation testing and personalized supplements for
           optimal health
         </p>
-        <p className="regular mt-7 md:text-lg leading-9">
+        <p className="regular mt-7 md:text-lg md:leading-9">
           Explore a new era of health with Deepbody. Our advanced DNA
           methylation testing uncovers unique insights into your genetic makeup,
           enabling us to craft personalized supplements just for you. By

@@ -11,6 +11,8 @@ import Blogs from "./blogs/blogs";
 import Subscribe from "./subscribe/subscribe";
 import Methylation from "./methylation/methylation";
 import Health from "./health/health";
+import { Homocysteine } from "./homocysteine/homocysteine";
+import { UniqueGenetics } from "./uniqueGenetics/uniqueGenetics";
 
 export {
   TopBanner,
@@ -26,4 +28,6 @@ export {
   Subscribe,
   Methylation,
   Health,
+  Homocysteine,
+  UniqueGenetics,
 };

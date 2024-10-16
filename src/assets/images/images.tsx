@@ -32,6 +32,8 @@ import blogimage_2 from "./blogimage_2.png";
 import blogimage_3 from "./blogimage_3.png";
 import methylation from "./methylation.png";
 import health_care from "./health_care.png";
+import homocysteine from "./homocysteine.png";
+import deepbody from "./deepbody.png";
 
 export {
   logo,
@@ -68,4 +70,6 @@ export {
   blogimage_3,
   methylation,
   health_care,
+  homocysteine,
+  deepbody,
 };

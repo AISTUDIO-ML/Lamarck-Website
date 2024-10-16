@@ -13,6 +13,8 @@ import {
   Subscribe,
   Methylation,
   Health,
+  Homocysteine,
+  UniqueGenetics,
 } from "sections/sections";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <Home />
       <Methylation />
       <Health />
+      <Homocysteine />
+      <UniqueGenetics />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}
