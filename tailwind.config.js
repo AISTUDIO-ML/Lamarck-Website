@@ -9,11 +9,6 @@ module.exports = {
         themeBorder: "#E5EEF5",
         themeBlack: "#032A47",
         themeGray: "#808080",
-
-        // extra colors
-        secondaryLight: "#FEF1E0",
-       
-        themeOrange: "#FF6B00",
       },
     },
   },

@@ -1,15 +1,7 @@
-import {
-  discover,
-  honeypotz,
-  logo,
-  mastercard,
-  unionpay,
-  visa,
-} from "assets/images/images";
+import { logo } from "assets/images/images";
 import {
   apple,
   facebook,
-  github,
   instagram,
   linkedin,
   podcast,

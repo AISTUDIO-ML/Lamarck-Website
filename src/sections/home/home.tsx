@@ -1,4 +1,4 @@
-import { ai_studio, hero_image } from "assets/images/images";
+import { hero_image } from "assets/images/images";
 import { ThemeButton } from "components/components";
 
 const Home: React.FC = () => {

@@ -1,4 +1,4 @@
-import { github, slack, box } from "assets/images/images";
+import { box } from "assets/images/images";
 import { ThemeButton } from "components/components";
 
 const community = [

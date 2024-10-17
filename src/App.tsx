@@ -1,16 +1,9 @@
 import { Footer, NavBar } from "components/components";
 import {
-  BottomBanner,
   Home,
   TopBanner,
-  UseCases,
-  CaseStudies,
-  ScalableSolutions,
-  Awards,
   Community,
   Testimonials,
-  Blogs,
-  Subscribe,
   Methylation,
   Health,
   Homocysteine,
@@ -41,13 +34,6 @@ function App() {
       <Testimonials />
       <Story />
       <Faq />
-      {/* <UseCases /> */}
-      {/* <ScalableSolutions /> */}
-      {/* <CaseStudies /> */}
-      {/* <Awards /> */}
-      {/* <BottomBanner /> */}
-      {/* <Blogs /> */}
-      {/* <Subscribe /> */}
       <Footer />
     </div>
   );
