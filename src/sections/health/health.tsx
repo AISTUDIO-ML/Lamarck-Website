@@ -25,7 +25,7 @@ const data = [
 
 const Health: React.FC = () => {
   return (
-    <div className="myContainer flex flex-col items-center text-center !py-10">
+    <div id="epigenomics" className="myContainer flex flex-col items-center text-center !py-10">
       <div className="text-primary bg-secondary h-12 w-52 rounded-full flex items-center justify-center">
         <p>Key to Your Health</p>
       </div>

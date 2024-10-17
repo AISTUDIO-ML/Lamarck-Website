@@ -7,19 +7,19 @@ import "./navbar.css";
 const links = [
   {
     name: "Home",
-    href: "/#",
+    href: "#",
   },
   {
     name: "Epigenomics",
-    href: "/#",
+    href: "#epigenomics",
   },
   {
     name: "Genetics",
-    href: "/#",
+    href: "#genetics",
   },
   {
     name: "Confidential DATA Platform",
-    href: "/#",
+    href: "#platform",
   },
 ];
 

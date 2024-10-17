@@ -35,7 +35,7 @@ const community = [
 
 const Community: React.FC = () => {
   return (
-    <div id="confidential_computing" className="myContainer !pb-20">
+    <div id="platform" className="myContainer !pb-20">
       <div className="text-primary bg-secondary w-52 h-11 rounded-full flex items-center justify-center">
         <p>How To Place Order</p>
       </div>

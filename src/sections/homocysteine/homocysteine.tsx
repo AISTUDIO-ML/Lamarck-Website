@@ -2,7 +2,7 @@ import { homocysteine } from "assets/images/images";
 
 const Homocysteine: React.FC = () => {
   return (
-    <div className="myContainer !py-20 grid lg:grid-cols-2 gap-10">
+    <div id="genetics" className="myContainer !py-20 grid lg:grid-cols-2 gap-10">
       <img
         src={homocysteine}
         alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
