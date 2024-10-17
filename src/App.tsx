@@ -20,6 +20,7 @@ import {
   Process,
   Introduction,
   Story,
+  Faq,
 } from "sections/sections";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <Security />
       <Testimonials />
       <Story />
+      <Faq />
       {/* <UseCases /> */}
       {/* <ScalableSolutions /> */}
       {/* <CaseStudies /> */}

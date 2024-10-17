@@ -18,6 +18,7 @@ import Security from "./security/security";
 import Process from "./process/process";
 import Introduction from "./introduction/introduction";
 import Story from "./story/story";
+import Faq from "./faq/faq";
 
 export {
   TopBanner,
@@ -40,4 +41,5 @@ export {
   Process,
   Introduction,
   Story,
+  Faq,
 };
