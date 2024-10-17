@@ -18,6 +18,7 @@ import {
   HealthMatters,
   Security,
   Process,
+  Introduction,
 } from "sections/sections";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <HealthMatters />
       <Process />
       <Community />
+      <Introduction />
       <Security />
       <Testimonials />
       {/* <UseCases /> */}

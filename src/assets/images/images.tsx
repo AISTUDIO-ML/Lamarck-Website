@@ -37,6 +37,7 @@ import deepbody from "./deepbody.png";
 import health_matter from "./health_matter.png";
 import security from "./security.png";
 import steps from "./steps.png";
+import ceo from "./ceo.png";
 
 export {
   logo,
@@ -78,4 +79,5 @@ export {
   health_matter,
   security,
   steps,
+  ceo,
 };

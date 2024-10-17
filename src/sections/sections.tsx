@@ -16,6 +16,7 @@ import UniqueGenetics from "./uniqueGenetics/uniqueGenetics";
 import HealthMatters from "./healthMatters/healthMatters";
 import Security from "./security/security";
 import Process from "./process/process";
+import Introduction from "./introduction/introduction";
 
 export {
   TopBanner,
@@ -36,4 +37,5 @@ export {
   HealthMatters,
   Security,
   Process,
+  Introduction,
 };
