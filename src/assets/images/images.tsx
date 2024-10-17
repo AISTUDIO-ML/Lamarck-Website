@@ -38,6 +38,7 @@ import health_matter from "./health_matter.png";
 import security from "./security.png";
 import steps from "./steps.png";
 import ceo from "./ceo.png";
+import person from "./person.png";
 
 export {
   logo,
@@ -80,4 +81,5 @@ export {
   security,
   steps,
   ceo,
+  person,
 };

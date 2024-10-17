@@ -130,12 +130,12 @@ const Footer: React.FC = () => {
         <div>
           <p className="semibold pb-3">Contact Us</p>
           <p className="medium text-sm">
-            Address: 159 Main Street Suite 100 Nashua, NH 03060 USA
+            159 Main Street Suite 100 Nashua, NH 03060 USA
           </p>
-          <p className="medium text-sm py-4">
-            Address: Hirschmatstrasse, 42 Luzern, LH-6003 Switzerland
+          <p className="medium text-sm py-4">+ 1 202 507 9469</p>
+          <p className="medium text-sm">
+            Hirschmatstrasse, 42 Luzern, LH-6003 Switzerland
           </p>
-          <p className="medium text-sm">+ 1 202 507 9469</p>
           <p className="medium text-sm py-4">+ 41 44 585 2436</p>
           <p className="medium text-sm">DNA@deepbody.me</p>
         </div>

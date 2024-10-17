@@ -68,7 +68,7 @@ const reviews = [
 
 const Testimonials: React.FC = () => {
   return (
-    <div id="usecases" className="!pt-14">
+    <div id="usecases" className="!py-14">
       <div className="myContainer">
         <p className="text-themeBlack text-3xl md:text-5xl semibold mt-6 text-center">
           Our <span className="text-primary">Testimonial</span>
