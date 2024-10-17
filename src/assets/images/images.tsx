@@ -15,6 +15,7 @@ import security from "./security.png";
 import steps from "./steps.png";
 import ceo from "./ceo.png";
 import person from "./person.png";
+import payments from "./payments.png";
 
 export {
   logo,
@@ -34,4 +35,5 @@ export {
   steps,
   ceo,
   person,
+  payments,
 };
