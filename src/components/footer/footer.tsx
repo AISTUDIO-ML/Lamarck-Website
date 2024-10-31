@@ -25,7 +25,7 @@ const links = [
       },
       {
         title: "Investors",
-        href: require("../../assets/Honeypotz_Seed.pdf"),
+        href: require("../../assets/Deepbody_Business_Plan.pdf"),
       },
       {
         title: "Partnership",
