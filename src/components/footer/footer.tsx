@@ -13,6 +13,10 @@ const links = [
         href: "/",
       },
       {
+        title: "Investors",
+        href: require("../../assets/Deepbody_Business_Plan.pdf"),
+      },
+      {
         title: "Solution",
         href: "/",
       },
