@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import { google, profile, stars } from "assets/images/images";
+import { google, profile, profile2, profile3, stars } from "assets/images/images";
 import { ReviewCard, ThemeButton } from "components/components";
 
 const responsive = {
@@ -24,45 +24,45 @@ const responsive = {
 const reviews = [
   {
     image: profile,
-    name: "Ami Sami",
+    name: "Olivia Spencer ",
     stage: "CEO at genetica",
     review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
+      "I was skeptical about doing DNA methylation testing at home, but this service exceeded my expectations. The kit was easy to use, and the results were detailed and easy to understand. I've gained so much insight into my health and how my lifestyle affects my genes. Highly recommend!",
+  },
+  {
+    image: profile2,
+    name: "Isabella Johnson",
+    stage: "CEO at genetica",
+    review:
+      "Fantastic service! The DNA methylation test provided me with comprehensive information about my genetic health. It has helped me make informed decisions about my diet and lifestyle. The customer support was also very responsive and helpful. Worth every penny!",
+  },
+  {
+    image: profile3,
+    name: "Ava Martinez",
+    stage: "CEO at genetica",
+    review:
+      "Impressed by the thoroughness of this DNA methylation test. The kit arrived quickly, and the whole process was seamless. The results gave me detailed health insights and actionable recommendations. I feel more empowered to take charge of my health now. Highly recommend!",
   },
   {
     image: profile,
-    name: "Ami Sami",
+    name: "Olivia Spencer ",
     stage: "CEO at genetica",
     review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
+      "I was skeptical about doing DNA methylation testing at home, but this service exceeded my expectations. The kit was easy to use, and the results were detailed and easy to understand. I've gained so much insight into my health and how my lifestyle affects my genes. Highly recommend!",
   },
   {
-    image: profile,
-    name: "Ami Sami",
+    image: profile2,
+    name: "Isabella Johnson",
     stage: "CEO at genetica",
     review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
+      "Fantastic service! The DNA methylation test provided me with comprehensive information about my genetic health. It has helped me make informed decisions about my diet and lifestyle. The customer support was also very responsive and helpful. Worth every penny!",
   },
   {
-    image: profile,
-    name: "Ami Sami",
+    image: profile3,
+    name: "Ava Martinez",
     stage: "CEO at genetica",
     review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
-  },
-  {
-    image: profile,
-    name: "Ami Sami",
-    stage: "CEO at genetica",
-    review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
-  },
-  {
-    image: profile,
-    name: "Ami Sami",
-    stage: "CEO at genetica",
-    review:
-      "We are very much impressed by the degree of solutions precisions the deepbody have got totally amazed.",
+      "Impressed by the thoroughness of this DNA methylation test. The kit arrived quickly, and the whole process was seamless. The results gave me detailed health insights and actionable recommendations. I feel more empowered to take charge of my health now. Highly recommend!",
   },
 ];
 

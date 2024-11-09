@@ -5,6 +5,8 @@ import box from "./box.png";
 import google_g from "./google_g.png";
 import google from "./google.png";
 import profile from "./profile.png";
+import profile2 from "./profile2.jpg";
+import profile3 from "./profile3.jpg";
 import stars from "./stars.png";
 import methylation from "./methylation.png";
 import health_care from "./health_care.png";
@@ -25,6 +27,8 @@ export {
   google_g,
   google,
   profile,
+  profile2,
+  profile3,
   stars,
   methylation,
   health_care,
